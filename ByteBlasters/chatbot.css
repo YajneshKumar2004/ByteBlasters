@@ -56,7 +56,7 @@ html {
     color: #ffffff;
   }
   
-  /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
+  /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble*/
   .bpw-layout {
     width: 360px !important;
     height: 60vh;
@@ -92,6 +92,7 @@ html {
     outline: none !important;
     border: 1px solid rgba(0,0,0,.15);
   }
+
   .bpw-composer textarea:focus{
     outline: none !important;
     border: 1px solid rgba(0,0,0,.30);
@@ -112,7 +113,6 @@ html {
     border: none;
   }
   
-  
   /* Styling for hover effect on the buttons in the chat interface */
   .bpw-button:hover,
   .bpw-button-alt:hover {
@@ -126,7 +126,7 @@ html {
     text-decoration: underline;
   }
   
-  /* Styling for the chat container, including color, scrollbar width and color, and border */
+  /* Styling for the chat container, including color, scrollbar width and color, and border.*/
   .bpw-chat-container {
     background-color: #ffffff;
     scrollbar-width: thin;
