@@ -508,3 +508,54 @@ section .main .button:hover i{
 }
 
 
+
+@media (max-width: 412px) {
+    section {
+        height: 45vh;
+        left: 10px;
+        width: 100%;
+        background-size: covrer;
+        left: 0px;
+    }
+        /* section{
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/bg1.png);
+        background-size: cover;
+        background-position: center;
+    } */
+
+    section .main .main_content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    section .main .main_content .main_text h1 {
+        font-size: 50px;
+        line-height: 55px;
+        font-family: pyxidium quick;
+        background: linear-gradient(to right, #c72092,#6c14d0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        top: 150px;
+        left: 5%;
+    }
+    section .main .main_content .main_text h1 span {
+        font-size: 55px;
+        background: linear-gradient(to right, #c72092,#6c14d0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+
+    section .main .main_content .main_image img {
+        width: 300px;
+        position: absolute;
+        left: 97px;
+        top: 140px;
+    }
+
+}
+
