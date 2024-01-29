@@ -305,7 +305,7 @@ body{
 
 
 /* Responsive  */
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     .home-content h1 {
         font-size: 39px;
     }
@@ -394,6 +394,8 @@ body{
         animation-delay: 1s;
         width: 35px;
     }
-    
+    .popup-info.active{
+        width: 200px;
+    }
 
 }
