@@ -10,7 +10,7 @@
 body{
     color: #fff;
     background: #fb00ff;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .byte-blaster-logo {
