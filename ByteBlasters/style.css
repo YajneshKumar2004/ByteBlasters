@@ -302,6 +302,8 @@ body{
 }
 
 
+
+
 /* Responsive  */
 @media (max-width: 560px) {
     .home-content h1 {
@@ -309,7 +311,7 @@ body{
     }
     .byte-blaster-logo {
         width: 20vh;
-        padding-top: 26vh;
+        padding-top: 20vh;
     }
     .home-content p {
         font-size: 15px;
@@ -325,6 +327,9 @@ body{
     .container {
         width: 100%;
         
+    }
+    body {
+        overflow: hidden;
     }
     
 
