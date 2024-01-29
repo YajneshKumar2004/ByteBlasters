@@ -300,3 +300,27 @@ body{
     animation-delay: 9s;
     width: 85px;
 }
+
+
+/* Responsive  */
+@media (max-width: 560px) {
+    .home-content h1 {
+        font-size: 39px;
+    }
+    .byte-blaster-logo {
+        width: 20vh;
+        padding-top: 26vh;
+    }
+    .home-content p {
+        font-size: 15px;
+    }
+    .header {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .logo{
+        font-size: 19px;
+    }
+    
+
+}
