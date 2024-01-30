@@ -509,13 +509,14 @@ section .main .button:hover i{
 
 
 
-@media (max-width: 412px) {
+@media (max-width: 500px) {
     section {
         height: 45vh;
         left: 10px;
         width: 100%;
         background-size: covrer;
         left: 0px;
+        background-image: none;
     }
         /* section{
         width: 100%;
@@ -539,8 +540,9 @@ section .main .button:hover i{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         position: relative;
-        top: 150px;
-        left: 5%;
+        top: 190px;
+        left: 0%;
+        /* text-align: center; */
     }
     section .main .main_content .main_text h1 span {
         font-size: 55px;
@@ -555,6 +557,22 @@ section .main .button:hover i{
         position: absolute;
         left: 97px;
         top: 140px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .review .review_box {
+        width: 10%;
+        position: relative;
+        top: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
 }
