@@ -102,7 +102,7 @@ section .main .main_content .main_text h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
-    top: 45px;
+    top: 11rem;
     left: 5%;
 }
 
@@ -518,3 +518,12 @@ section .main .button:hover i{
     margin-top: 15px;
 }
 
+
+@media(max-width: 300px) {
+    section .main .main_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1rem;
+    }
+}
