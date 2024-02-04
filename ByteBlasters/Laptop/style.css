@@ -445,7 +445,7 @@ body {
   text-align: center;
   margin-bottom: 25px;
   margin: 35px 0;
-  font-size: 60px;
+  font-size: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -775,4 +775,6 @@ body {
     gap: 50px;
   }
 
+}
+  
 }

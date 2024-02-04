@@ -305,7 +305,7 @@ body{
 
 
 /* Responsive  */
-@media (max-width: 424px) {
+@media (max-width: 500px) {
 
     .home-content h1 {
         font-size: 39px;
@@ -397,7 +397,7 @@ body{
         width: 35px;
     }
     .popup-info.active{
-        width: auto;
+        width: 400px;
 
     }
     .popup-info h2 {
