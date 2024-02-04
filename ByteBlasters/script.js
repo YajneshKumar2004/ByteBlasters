@@ -14,11 +14,6 @@ const chatbox = document.querySelector('.chatbox')
 const bubblesContainer = document.getElementById('bubbles-container');
 
 
-// const quizBox = document.querySelector('.quiz-box');
-// const resultBox = document.querySelector('.result-box');
-// const tryAgainBtn = document.querySelector('.tryAgain-btn');
-// const goHomeBtn = document.querySelector('.goHome-btn');
-
 // Function to hide bubbles
 function hideBubbles() {
     bubblesContainer.style.display = 'none';
@@ -29,60 +24,12 @@ function showBubbles() {
     bubblesContainer.style.display = 'flex';
 }
 
-function openChatbot() {
-    chatbot.classList.add('active');
-    popupInfo.classList.remove('active');
-    main.classList.remove('active');
-    hideBubbles();
 
-    // Start the conversation (You may need to adjust this based on your chatbot setup)
-    window.botpressWebChat.sendText('Hi there! How can I help you?');
-}
 
 startBtn.onclick = () => {
     popupInfo.classList.add('active');
     main.classList.add('active');
     hideBubbles();
-}
-
-// exitBtn.onclick = () => {
-//     popupInfo.classList.remove('active');
-//     main.classList.remove('active');
-//     showBubbles(); 
-// }
-
-continueBtn.onclick = () => {
-    // questionSection.classList.add('active');
-    // chatbot.classList.add('active');
-    popupInfo.classList.remove('active');
-    main.classList.remove('active'); // to remove the blur effect 
-    hideBubbles();
-
-    // ChatBot by Soham 
-    const botpressScript = document.createElement('script');
-    botpressScript.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
-    document.head.appendChild(botpressScript);
-
-    // Initialize Botpress Web Chat
-    const chatInitScript = document.createElement('script');
-    chatInitScript.innerHTML = `
-        window.botpressWebChat.init({
-            "composerPlaceholder": "Chat with bot",
-            "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
-            "botId": "f01b5ec8-a4a8-4099-8594-79ec6776fabc",
-            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-            "messagingUrl": "https://messaging.botpress.cloud",
-            "clientId": "f01b5ec8-a4a8-4099-8594-79ec6776fabc",
-            "webhookId": "e772a6ff-acf8-4908-bc1d-06cb204d7431",
-            "lazySocket": true,
-            "themeName": "prism",
-            "frontendVersion": "v1",
-            "showPoweredBy": true,
-            "theme": "prism",
-            "themeColor": "#2563eb"
-        });
-    `;
-    document.head.appendChild(chatInitScript);
 }
 
 

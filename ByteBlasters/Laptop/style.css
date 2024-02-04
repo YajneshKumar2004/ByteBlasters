@@ -406,7 +406,11 @@ body {
   margin-bottom: 25px;
 }
 
-
+.main-heading{
+  background: linear-gradient(to right, #c72092,#6c14d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
