@@ -508,72 +508,116 @@ section .main .button:hover i{
 }
 
 
-
-@media (max-width: 500px) {
-    section {
-        height: 45vh;
-        left: 10px;
-        width: 100%;
-        background-size: covrer;
-        left: 0px;
-        background-image: none;
-    }
-        /* section{
-        width: 100%;
-        height: 100vh;
-        background-image: url(images/bg1.png);
-        background-size: cover;
-        background-position: center;
-    } */
-
-    section .main .main_content {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        
-    }
-    section .main .main_content .main_text h1 {
-        font-size: 50px;
-        line-height: 55px;
-        font-family: pyxidium quick;
-        background: linear-gradient(to right, #c72092,#6c14d0);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        position: relative;
-        top: 190px;
-        left: 0%;
-        /* text-align: center; */
-    }
-    section .main .main_content .main_text h1 span {
-        font-size: 55px;
-        background: linear-gradient(to right, #c72092,#6c14d0);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+/* Responsive  */
+@media (max-width: 424px) {
+   
+  
+    <head>
+      <title>Laptops</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="laptop.css">
     
-
-    section .main .main_content .main_image img {
-        width: 300px;
-        position: absolute;
-        left: 97px;
-        top: 140px;
-    }
-
-    .review h1 {
-        font-size: 20px;
-        display: flex;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-    }
-    .review .review_box {
-        width: 10%;
-        position: relative;
-        top: 7%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */ 
+        .navbar {
+          margin-bottom: 0;
+          border-radius: 0;
+        }
+        
+        /* Add a gray background color and some padding to the footer */
+        footer {
+          background-color: #bfb5b5;
+          padding: 25px;
+        }
+      </style>
+    </head>
+    <body>
+    
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Laptops</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li> -->
+            <!-- <li><a href="#">About</a></li> -->
+            <!-- <li><a href="#">Gallery</a></li> -->
+            <!-- <li><a href="#">Contact</a></li> -->
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right"> -->
+          <!-- </ul> -->
+        </div>
+      </div>
+    </nav>
+    
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Laptop Collection</h1>  
+            
+        <!-- <p>Some text that represents "Me"...</p> -->
+      </div>
+    </div>
+      
+    <div class="container-fluid bg-3 text-center">    
+      <h3>Some of my Work</h3><br>
+      <div class="row">
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+      </div>
+    </div><br>
+    
+    <div class="container-fluid bg-3 text-center">    
+      <div class="row">
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+      </div>
+    </div><br><br>
+    
+    <footer class="container-fluid text-center footer-bg">
+      <p>Made with love &#10084; by team BYTE BLASTER</p>
+    </footer>
+    
+    </body>
+    </html>
+    
 
 }
 

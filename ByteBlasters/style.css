@@ -71,7 +71,7 @@ body{
 .container {
     display: flex;
     height: 100vh;
-    width: 200%;
+    width: 100%;
 }
 
 .home {
@@ -305,7 +305,8 @@ body{
 
 
 /* Responsive  */
-@media (max-width: 412px) {
+@media (max-width: 424px) {
+
     .home-content h1 {
         font-size: 39px;
     }
@@ -332,6 +333,7 @@ body{
     body {
         overflow: hidden;
     }
+   
 
     /* Bubbles  */
 
@@ -395,7 +397,7 @@ body{
         width: 35px;
     }
     .popup-info.active{
-        width: 350px;
+        width: auto;
 
     }
     .popup-info h2 {
