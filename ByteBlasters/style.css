@@ -75,8 +75,6 @@ body{
 }
 
 .home {
-    /* height: auto; */
-    /* position: relative; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -232,7 +230,6 @@ body{
 }
 
 
-/* Logo animation  */
 .byte-blaster-logo:hover {
     animation: color-rotate 1s;
     animation-iteration-count: infinite;
@@ -246,7 +243,6 @@ body{
     animation: bubble 10s linear infinite;
 }
 .bubbles {
-    /* z-index: 100; */
     width: 100%;
     display: flex;
     align-items: center;
